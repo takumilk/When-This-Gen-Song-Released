@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Bread Search</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Stoke|Yellowtail|Geo|Oswald|Lobster"
+    rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+
+<!-- 検索ボックス -->
+<div class="searchBox">
+  <h1>When Was This Gen Song Released?</h1>
+
+  <!-- 入力欄 -->
+  <div class="inputBox">
+    <h2>曲検索</h2>
+    <select class="inputText">
+      <option>▼ 曲を選んでください</option>
+      <option>ばかのうた</option>
+      <option>ばらばら</option>
+      <option>くせのうた</option>
+      <option>夢の外へ</option>
+      <option>ギャグ</option>
+      <option>地獄でなぜ悪い</option>
+      <option>桜の森</option>
+      <option>Crazy Crazy</option>
+      <option>Night Troop</option>
+      <option>SUN</option>
+      <option>時よ</option>
+      <option>Week End</option>
+      <option>SUN</option>
+      <option>Friend Ship</option>
+      <option>Continues</option>
+      <option>恋</option>
+      <option>Family Song</option>
+      <option>ドラえもん</option>
+      <option>創造</option>
+      <option>不思議</option>
+      <option>Cube</option>
+      <option>喜劇</option>
+    </select>
+    <button onclick="clickButton()">検索</button>
+  </div><!-- /.inputBox -->
+
+  <!-- 出力欄 -->
+  <div class="outputBox">
+    <h2>検索結果</h2>
+
+    <!-- 表 -->
+    <table>
+      <tr>
+        <th>曲名</th>
+        <td class="showText1">?</td>
+      </tr>
+      <tr>
+        <th>収録アルバム</th>
+        <td class="showText2">?</td>
+      </tr>
+      <tr>
+        <th>bpm</th>
+        <td class="showText3">?</td>
+      </tr>
+      <tr>
+        <th>曲の長さ</th>
+        <td class="showText4">?</td>
+      </tr>
+            <tr>
+        <th>リリース日</th>
+        <td class="showText5">?</td>
+      </tr>
+
+
+
+      
+    </table>
+
+  </div><!-- /.outputBox -->
+
+</div><!-- /.searchBox -->
+
+<!-- JavaScriptと連携する -->
+<script src="script.js"></script>
+<script src="common.js"></script>
+<script src="deploy.js"></script>

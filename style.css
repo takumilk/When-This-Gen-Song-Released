@@ -1,0 +1,75 @@
+/*＝＝＝＝＝ 全体の設定 ＝＝＝＝＝＝ */
+body {
+  margin: 0;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/*＝＝＝＝＝ 検索機能全体 ＝＝＝＝＝＝ */
+.searchBox h1 {
+  color: black;
+  font-size: 60px;
+  font-family: lobster;
+  margin: 0;
+}
+
+.searchBox h2 {
+  font-size: 20px;
+}
+
+.searchBox {
+  background: #fff;
+  width: 500px;
+  padding: 30px;
+  border: 10px solid #fc0;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 入力欄 */
+.inputBox {
+  margin-bottom: 30px;
+}
+
+.inputText {
+  height: 26px;
+  width: 200px;
+}
+
+/* ボタン */
+button {
+  background: #E91E63;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ボタンにさわったとき */
+button:hover {
+  background: orange;
+  cursor: pointer;
+}
+
+/* 出力欄 */
+.outputBox table {
+  background-color: #ffffdd;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.outputBox td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.outputBox th {
+  width: 130px;
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: #ffcc11;
+  text-align: left;
+}
+
+
